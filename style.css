@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    line-height: 1.5em;
 }
 
 body{
@@ -41,6 +42,15 @@ h6{
     font-size: 16px;
 }
 
+a{
+    color: seashell;
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
 section{
     margin-bottom: 20px;
 }
@@ -67,25 +77,26 @@ nav{
 
 nav ul li{
     display: inline-block;
-    text-decoration: underline;
     margin-left: 10px;
     cursor: pointer;
 }
 
 main{
     width: 90%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
 }
 
 figcaption{
     margin-top: 10px;
+    margin-bottom: 20px;;
 }
 
 #our-mission{
     display: flex;
     align-items: center;
     background-image: url(./images/img-mission-background.jpg);
+    background-position: center;
     height: 700px;
 }
 
@@ -95,43 +106,59 @@ figcaption{
     padding: 20px 0;
 }
 
+#featured-tea{
+    max-width: 1000px;
+    margin: auto;
+}
+
 .tea-images{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 20px;
 }
 
 .tea-images figure img{
     max-width: 300px;
     max-height: 200px;
-}
-
-.space-around{
-    justify-content: space-around;
+    margin-left: 40px;
 }
 
 #locations{
     background-image: url('./images/img-locations-background.jpg');
     background-position: center;
     width: 100%;
-    height: 500px;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top:20px;
 }
 
 #locations h2{
-    margin-top: 20px;
+    flex-basis: 100%;
+    text-align: center;
+    margin: 0;
 }
 
 #location-boxes{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .location{
     background-color: #000000;
     width: 300px;
+    margin-left: 40px;
     opacity: 1;
+}
+
+.location p, .location h3{
+    line-height: 2.5em;
 }
 
 #contact{
@@ -149,4 +176,23 @@ footer{
 
 footer p{
     margin-left: 20px;
+}
+
+@media (max-width: 600px){
+    .tea-images figure img{
+        margin-left: 0;
+    }
+
+    #locations{
+        height: 750px;
+    }
+
+    .location{
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .location p, .location h3{
+        line-height: 1.75em;
+    }
 }
