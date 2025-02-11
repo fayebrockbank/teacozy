@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: #000000;
+    text-align: center;
+    opacity: 0.9;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 26px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 18px;
+}
+
+h6{
+    font-size: 16px;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    position: sticky;
+    top:0;
+    background-color: #000000;
+    z-index: 2;
+    border-bottom: 1px solid seashell;
+}
+
+#logo{
+    margin-left: 10px;
+}
+
+nav{
+    margin-right: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    text-decoration: underline;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+main{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+figcaption{
+    margin-top: 10px;
+}
+
+#our-mission{
+    display: flex;
+    align-items: center;
+    background-image: url(./images/img-mission-background.jpg);
+    height: 700px;
+}
+
+#mission-statement{
+    flex-grow: 1;
+    background-color: #000000;
+    padding: 20px 0;
+}
+
+.tea-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.tea-images figure img{
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+#locations{
+    background-image: url('./images/img-locations-background.jpg');
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+
+#locations h2{
+    margin-top: 20px;
+}
+
+#location-boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.location{
+    background-color: #000000;
+    width: 300px;
+    opacity: 1;
+}
+
+#contact{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+footer p{
+    margin-left: 20px;
+}

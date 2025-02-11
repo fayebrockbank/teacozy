@@ -1,0 +1,56 @@
+
+font-family: Helvetica; font-size: 22px; color: seashell;
+background-color: black; opacity: 0.9;
+text is centered horizontally
+10px Tea Cozy
+50px
+69px
+border-bottom: 1px solid seashell;
+700px
+200px
+1200px
+fixed header
+Mission
+Featured Tea Locations
+text-decoration: underline;
+h4
+Our Mission h2
+centered vertically
+Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea
+1000px
+Tea of the Month
+What's Steeping at The Tea Cozy?
+IT PAYS
+TO BUY GOOD
+TEA
+Fall Berry Blitz Tea
+Spiced Rum Tea
+Seasonal Donuts
+300px
+10px Myrtle Ave Tea
+Bedford Bizarre Tea
+40px
+Downtown
+384 West 4th St
+3433 Phisherman's Avenue
+500px
+Suite 108
+(Northwest Corner)
+Locations
+15px
+East Bayside h3
+Oakdale
+515 Crescent Avenue
+opacity 1 Second Floor
+Portland, Maine
+Portland, Maine
+Portland, Maine
+300px
+H 20px
+copyright The Tea Cozy 2017
+Text is aligned left
+The Tea Cozy
+contact@theteacozy.com
+917-555-8904
+h5
+200px
