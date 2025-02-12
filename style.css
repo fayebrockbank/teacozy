@@ -125,6 +125,10 @@ figcaption{
     margin-left: 40px;
 }
 
+#first-image{
+    margin-left: 0;
+}
+
 #locations{
     background-image: url('./images/img-locations-background.jpg');
     background-position: center;
@@ -178,7 +182,7 @@ footer p{
     margin-left: 20px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 727px){
     .tea-images figure img{
         margin-left: 0;
     }
